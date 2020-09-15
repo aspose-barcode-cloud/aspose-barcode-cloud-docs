@@ -102,9 +102,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="1" >}}
 
+{{< gist "aspose-cloud" "8204b108d4966f58bae08dec977ea1c6" >}}
+
 {{< /tab >}}
 
 {{< tab tabNum="2" >}}
+
+{{< gist "aspose-cloud" "86ca3b2412bd9a512b62bb078b093b80" >}}
 
 {{< /tab >}}
 
@@ -116,6 +120,8 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="4" >}}
 
+{{< gist "aspose-cloud" "bba7dc746bffe92c6388f0f156ba5f58" >}}
+
 {{< /tab >}}
 
 {{< tab tabNum="5" >}}
@@ -126,6 +132,8 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="6" >}}
 
+{{< gist "aspose-cloud" "a148ff358c2ccc42d1a12691b01a2424" >}}
+
 {{< /tab >}}
 
 {{< /tabs >}}
@@ -134,13 +142,19 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="1" >}}
 
+{{< gist "aspose-cloud" "a42ed26a4fa09288bc1c307447715c23" >}}
+
 {{< /tab >}}
 
 {{< tab tabNum="2" >}}
 
+{{< gist "aspose-cloud" "ba7461ee97f8e3a65b07b86a9a01a873" >}}
+
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "706b16f43ebbc5289518eef1d8ba4899" >}}
 
 {{< /tab >}}
 
@@ -151,6 +165,8 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 {{< /tab >}}
 
 {{< tab tabNum="5" >}}
+
+{{< gist "aspose-cloud" "a63947a5e7dfb70d5967d2ea2fbeea47" >}}
 
 {{< /tab >}}
 
