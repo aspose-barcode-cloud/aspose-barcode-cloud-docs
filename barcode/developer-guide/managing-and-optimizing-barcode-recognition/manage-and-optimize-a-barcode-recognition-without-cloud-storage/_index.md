@@ -26,7 +26,7 @@ This API lets you recognize a barcode from file on the server with parameters in
 // First get Access Token
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
-curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d 'grant\_type=client\_credentials&client\_id=XXXXXXXXX&client\_secret=XXXXXXXXX' -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d 'grant_type=client_credentials&client_id=XXXXXXXXX&client_secret=XXXXXXXXX' -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 ```java
