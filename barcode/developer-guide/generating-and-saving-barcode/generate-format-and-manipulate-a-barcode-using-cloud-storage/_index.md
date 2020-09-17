@@ -12,8 +12,8 @@ Aspose.BarCode for Cloud has provided the simplest API to generate a barcode and
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
 |/barcode/{name}/generate|PUT|Generate barcode and save on server (from query params or from file with json or xml content)|[PutBarcodeGenerateFile](https://apireference.aspose.cloud/barcode/#/Barcode/PutBarcodeGenerateFile)|
-The description of important API parameters and their valid values are given below:
 
+The description of important API parameters and their valid values are given below:
 |**Parameter**|**Valid values**|**Description**|
 | :- | :- | :- |
 |name|String|The image file name|
