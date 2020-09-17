@@ -5,7 +5,9 @@ url: /manage-and-optimize-a-barcode-recognition-without-cloud-storage/
 weight: 20
 ---
 
+## **Introduction**
 This API lets you recognize a barcode from file on the server with parameters in the request body.
+
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
