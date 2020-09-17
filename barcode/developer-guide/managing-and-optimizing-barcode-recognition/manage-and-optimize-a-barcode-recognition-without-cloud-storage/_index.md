@@ -60,29 +60,20 @@ cURL Example
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=XXXXXXXXX&client\_secret=XXXXXXXXX' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to generate barcode and recognize a barcode from file on the server with parameters in the request body
 
 curl -v "https://api.aspose.cloud/v3.0/barcode/recognize?Type=Code128&ChecksumValidation=On&url=http%3A%2F%2Fwww.barcoding.com%2Fimages%2FBarcodes%2Fcode93.gif" \
-
 -X POST \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer BQNPIzh7T8mj6f0O7fuYm87IAUyjhSu0kb\_WeIeigZFU\_yXb7\_kwojehxNGyVQWuc9hXGvuMfxcY7AXPkSykKCUPcrjt\_tpEMIrMhavTz3rcw4oStXzReI1thSmoHsYosDQ4SMtmEISbII7wu7-ld\_HDKirl\_3YpU8bRqVRQ1aBq79X0JbOvi2gJ-6\_G8vGO\_zI02tAc6FcLhF2UJT5J0DPRUJ2OgyLRFnn7h1fQExbJGIS8fn1El2EgkhzRixsZYVpm6ey2Is6NAWBy75KVSZt3ICH3g7X0V6PCL3OJWi0ZU-WeKNXAyQfm3cUEehP1XZocjmhh2E8sL-3liEKZkw8IBBPmyryDKjPZMm0-K3Zjx\_XrLcp\_nYPMV9353LpqMEEmyF2atAG1eEVa0Hh12REPzeDc82AhpVwzFsI3HqIqTbD3"
 
 ```
