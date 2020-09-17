@@ -13,8 +13,8 @@ Aspose.BarCode for Cloud has provided the simplest API to recognize a barcode an
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
 |/barcode/{name}/recognize|GET|Recognize barcode from a file on server|[GetBarcodeRecognize](https://apireference.aspose.cloud/barcode/#/Barcode/GetBarcodeRecognize)|
-The description of important API parameters and their valid values are given below:
 
+The description of important API parameters and their valid values are given below:
 |**Parameter**|**Valid values**|**Description**|
 | :- | :- | :- |
 |name|String|The image file name|
