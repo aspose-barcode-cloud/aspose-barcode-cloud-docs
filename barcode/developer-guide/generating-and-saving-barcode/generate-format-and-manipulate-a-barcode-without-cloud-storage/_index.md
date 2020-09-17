@@ -5,7 +5,6 @@ url: /generate-format-and-manipulate-a-barcode-without-cloud-storage/
 weight: 20
 ---
 
-# **Introduction**
 Aspose.BarCode for Cloud has provided the simplest API to generate a barcode and get image as a stream object in an easy way without using any cloud storage operation.
 ## **API Information**
 
@@ -18,15 +17,15 @@ The description of important API parameters and their valid values are given bel
 | :- | :- | :- |
 |name|String|The image file name|
 |Type|Codabar, Code11, Code39Standard, Code39Extended, Code93Standard, Code93Extended, <br>Code128, GS1Code128, EAN8, EAN13, EAN14, SCC14, SSCC18, UPCA, UPCE, ISBN, ISSN, <br>ISMN, Standard2of5, Interleaved2of5, Matrix2of5, ItalianPost25, IATA2of5, ITF14, <br>ITF6, MSI, VIN, DeutschePostIdentcode, DeutschePostLeitcode, OPC, PZN, Code16K, <br>Pharmacode, DataMatrix, QR, Aztec, Pdf417, MacroPdf417, AustraliaPost, Postnet, <br>Planet, OneCode, RM4SCC, DatabarOmniDirectional, DatabarTruncated, DatabarLimited, <br>DatabarExpanded, SingaporePost, GS1DataMatrix, AustralianPosteParcel, <br>SwissPostParcel, PatchCode, DatabarExpandedStacked, DatabarStacked, <br>DatabarStackedOmniDirectional, MicroPdf417, GS1QR, MaxiCode, Code32, DataLogic2of5, <br>DotCode, DutchKIX, UpcaGs1Code128Coupon, UpcaGs1DatabarCoupon, CodablockF, GS1CodablockF|Type of barcode to generate|
-|Text|` `String|Text to encode|
-|TwoDDisplayText|` `String|<p>Optional parameter</p><p>Text that will be displayed instead of codetext in 2D barcodes.<br>Used for: Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode</p>|
-|TextLocation|` `Below, Above, None|<p>(Optional parameter)</p><p>Displaying Text Location</p>|
-|TextAlignment|` `Left, Center, Right|<p>(Optional parameter)</p><p>Text alignment</p>|
-|TextColor|` `Default value: Color.Black|<p>(Optional parameter)</p><p>Displaying CodeText's Color</p>|
-|FontSizeMode|` `Auto, Manual|<p>(Optional parameter)</p><p>If FontSizeMode is set to Auto, font size will be calculated automatically based on xDimension value.<br>It is recommended to use FontSizeMode.Auto especially in AutoSizeMode.Nearest or AutoSizeMode.Interpolation</p>|
-|Resolution|` `Number|<p>(Optional parameter)</p><p>Resolution of the BarCode image.<br>One value for both dimensions.<br>Default value: 96 dpi.</p>|
-|DimensionX|` `Number|<p>(Optional parameter)</p><p>The smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation</p>|
-|TextSpace|` `Number|<p>(Optional parameter)</p><p>Space between the CodeText and the BarCode in Unit value<br>Default value: 2pt<br>Ignored for EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon</p>|
+|Text|String|Text to encode|
+|TwoDDisplayText|String|<p>Optional parameter</p><p>Text that will be displayed instead of codetext in 2D barcodes.<br>Used for: Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode</p>|
+|TextLocation|Below, Above, None|<p>(Optional parameter)</p><p>Displaying Text Location</p>|
+|TextAlignment|Left, Center, Right|<p>(Optional parameter)</p><p>Text alignment</p>|
+|TextColor|Default value: Color.Black|<p>(Optional parameter)</p><p>Displaying CodeText's Color</p>|
+|FontSizeMode|Auto, Manual|<p>(Optional parameter)</p><p>If FontSizeMode is set to Auto, font size will be calculated automatically based on xDimension value.<br>It is recommended to use FontSizeMode.Auto especially in AutoSizeMode.Nearest or AutoSizeMode.Interpolation</p>|
+|Resolution|Number|<p>(Optional parameter)</p><p>Resolution of the BarCode image.<br>One value for both dimensions.<br>Default value: 96 dpi.</p>|
+|DimensionX|Number|<p>(Optional parameter)</p><p>The smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation</p>|
+|TextSpace|Number|<p>(Optional parameter)</p><p>Space between the CodeText and the BarCode in Unit value<br>Default value: 2pt<br>Ignored for EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon</p>|
 |Units|Pixel, Point, Inch, Millimeter|<p>(Optional parameter)</p><p>Common Units for all measuring in query. Default units: pixel</p>|
 |SizeMode|None, Nearest, Interpolation|<p>(Optional parameter)</p><p>Specifies the different types of automatic sizing modes.<br>Default value: AutoSizeMode.None</p>|
 |BarHeight|Number|<p>(Optional parameter)</p><p>Height of the barcode in given units. Default units: pixel</p>|
@@ -59,29 +58,14 @@ The description of important API parameters and their valid values are given bel
 
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
-curl -v "https://api.aspose.cloud/oauth2/token" \
+curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d 'grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae' -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
--X POST \
+```
 
--d 'grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae' \
-
--H "Content-Type: application/x-www-form-urlencoded" \
-
--H "Accept: application/json"
-
+```java
 // cURL example to generate barcode and get image as a stream object
 
-curl -v "https://api.aspose.cloud/v3.0/barcode/generate?text=AsposeBarCode&type=QR&format=png&enableChecksum=NO&resolution=96&dimensionX=0.7" \
-
--X GET \
-
--H "Content-Type: application/json" \
-
--H "Accept: multipart/form-data" \
-
--o sample-barcode.png \
-
--H "Authorization: Bearer BQNPIzh7T8mj6f0O7fuYm87IAUyjhSu0kb\_WeIeigZFU\_yXb7\_kwojehxNGyVQWuc9hXGvuMfxcY7AXPkSykKCUPcrjt\_tpEMIrMhavTz3rcw4oStXzReI1thSmoHsYosDQ4SMtmEISbII7wu7-ld\_HDKirl\_3YpU8bRqVRQ1aBq79X0JbOvi2gJ-6\_G8vGO\_zI02tAc6FcLhF2UJT5J0DPRUJ2OgyLRFnn7h1fQExbJGIS8fn1El2EgkhzRixsZYVpm6ey2Is6NAWBy75KVSZt3ICH3g7X0V6PCL3OJWi0ZU-WeKNXAyQfm3cUEehP1XZocjmhh2E8sL-3liEKZkw8IBBPmyryDKjPZMm0-K3Zjx\_XrLcp\_nYPMV9353LpqMEEmyF2atAG1eEVa0Hh12REPzeDc82AhpVwzFsI3HqIqTbD3"
+curl -v "https://api.aspose.cloud/v3.0/barcode/generate?text=AsposeBarCode&type=QR&format=png&enableChecksum=NO&resolution=96&dimensionX=0.7" -X GET -H "Content-Type: application/json" -H "Accept: multipart/form-data" -o sample-barcode.png 
 
 ```
 
@@ -94,9 +78,9 @@ curl -v "https://api.aspose.cloud/v3.0/barcode/generate?text=AsposeBarCode&type=
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Checkout our [GitHub repository](https://github.com/aspose-barcode-cloud) for a complete list of Aspose.BarCode SDKs along with working examples, to get you started in no time.
-## **SDK Examples**
+### **SDK Examples**
 #### **Generate a Barcode and Get Image as Stream**
 {{< tabs tabTotal="6" tabID="3" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Node.js" tabName6="Go" >}}
 
@@ -171,9 +155,3 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 {{< /tab >}}
 
 {{< /tabs >}}
-
-
-
-
-
-
