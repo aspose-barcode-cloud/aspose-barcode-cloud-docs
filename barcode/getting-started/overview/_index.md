@@ -29,6 +29,6 @@ The Aspose.BarCode for Cloud API are secured and required authentication. Develo
 The API is completely independent of your operating system, database system or development language. We provide and support API SDKs in many development languages in order to make it even easier to integrate. You can see our available SDKs list here.
 ### **API Explorer**
 
-[![todo:image_alt_text\](shot_aspose_barcode_cloud_api_reference.png)](https://apireference.aspose.cloud/barcode/)
+![todo:image\_alt\_text](shot_aspose_barcode_cloud_api_reference.png)](https://apireference.aspose.cloud/barcode/)
 
 The easiest way to try out our API right away in your browser! With the [Aspose.Barcode Cloud API Reference](https://apireference.aspose.cloud/barcode/). This is a collection of Swagger documentation for the Aspose Cloud APIs. You can get information about all the resources in the API. It also provides testing and interactivity to our API endpoint documentation.
