@@ -5,7 +5,9 @@ url: /manage-and-optimize-a-barcode-recognition-using-cloud-storage/
 weight: 10
 ---
 
+## **Introduction**
 Aspose.BarCode for Cloud has provided the simplest API to recognize a barcode and save it on Aspose Cloud Storage.
+
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
