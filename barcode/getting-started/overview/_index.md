@@ -21,13 +21,13 @@ Our Aspose.BarCode for Cloud REST API comes with many features crucial to organi
 - Set barcode text attributes
 
 {{% /alert %}} 
-### **API Description**
+## **API Description**
 Aspose.BarCode Cloud is delivered over HTTP as a REST API with responses delivered in [JSON or XML format](https://docs.aspose.cloud/total/request-format/). Our API has predictable, resource-oriented URLs, and uses HTTP response codes to indicate API errors. You can see our API detail [here](https://apireference.aspose.cloud/barcode/).
-### **Security and Authentication**
+## **Security and Authentication**
 The Aspose.BarCode for Cloud API are secured and required authentication. Developers can [create](https://docs.aspose.cloud/total/create-new-app-and-get-app-key-and-sid/) app access key ID (appSID) and app secret access key when they [register](https://docs.aspose.cloud/total/creating-and-managing-account/). Authenticated requests require an signature and appSID query parameters. Signature is computed by encrypt the request URI using HMAC\_SHA1 with app secret key. You can see complete detail [here](https://docs.aspose.cloud/total/request-format/).
-### **SDKs**
+## **SDKs**
 The API is completely independent of your operating system, database system or development language. We provide and support API SDKs in many development languages in order to make it even easier to integrate. You can see our available SDKs list here.
-### **API Explorer**
+## **API Explorer**
 
 ![todo:image\_alt\_text](shot_aspose_barcode_cloud_api_reference.png)
 The easiest way to try out our API right away in your browser! With the [Aspose.Barcode Cloud API Reference](https://apireference.aspose.cloud/barcode/). This is a collection of Swagger documentation for the Aspose Cloud APIs. You can get information about all the resources in the API. It also provides testing and interactivity to our API endpoint documentation.
