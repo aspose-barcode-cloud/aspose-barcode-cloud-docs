@@ -78,7 +78,6 @@ curl -v "https://api.aspose.cloud/v3.0/barcode/sample-barcode.png/recognize?type
 ```java
 
 {
-
   "Barcodes": [
     {
       "BarcodeValue": "AsposeBarCode",
