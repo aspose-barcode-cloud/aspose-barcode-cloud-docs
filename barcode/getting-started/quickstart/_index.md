@@ -54,15 +54,10 @@ Use the **App SID** and **App key (secret key)** from the API app client you cre
 ```java
 
 var barCodeApi = new BarCodeApi(AppKey, AppSid);
-
 using (Stream response = api.BarCodeGetBarCodeGenerate(new BarCodeGetBarCodeGenerateRequest("Sample text", "Code128", "jpg")))
-
 using (FileStream stream = File.Create("out.jpg"))
-
 {
-
    response.CopyTo(stream);
-
 }
 
 ```
@@ -74,15 +69,10 @@ using (FileStream stream = File.Create("out.jpg"))
 ```php
 
 var barCodeApi = new BarCodeApi(AppKey, AppSid);
-
 using (Stream response = api.BarCodeGetBarCodeGenerate(new BarCodeGetBarCodeGenerateRequest("Sample text", "Code128", "jpg")))
-
 using (FileStream stream = File.Create("out.jpg"))
-
 {
-
    response.CopyTo(stream);
-
 } 
 
 ```
@@ -94,20 +84,13 @@ using (FileStream stream = File.Create("out.jpg"))
 ```javascript
 
 const { barcode, fs } = require("aspose-barcode-cloud-node", "fs");
-
 var api = new barcode.BarCodeApi(AppSid, AppKey);
-
 api.barCodeGetBarCodeGenerate("Aspose.BarCode for Cloud Sample", "Pdf417", "png").then((apiResult) => {
-
-       if (apiResult.response.statusCode == 200) {
-
-           fs.writeFile("out.png", apiResult.body);
-
-           console.log("Saved to out.png ");
-
-       }
-
-   });
+    if (apiResult.response.statusCode == 200) {
+        fs.writeFile("out.png", apiResult.body);
+        console.log("Saved to out.png ");
+    }
+ });
 
 ```
 {{< /tab >}}
