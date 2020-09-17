@@ -13,8 +13,8 @@ This API lets you recognize a barcode from file on the server with parameters in
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
 |/barcode/recognize|POST|Recognize barcode from an url or from request body. Request body can contain raw data bytes of the image or encoded with base64|[PostBarcodeRecognizeFromUrlOrContent](https://apireference.aspose.cloud/barcode/#/Barcode/PostBarcodeRecognizeFromUrlOrContent)|
-The description of important API parameters and their valid values are given below:
 
+The description of important API parameters and their valid values are given below:
 |**Parameter**|**Valid values**|**Description**|
 | :- | :- | :- |
 |Type|Codabar, Code11, Code39Standard, Code39Extended, Code93Standard, Code93Extended,<br>Code128, GS1Code128, EAN8, EAN13, EAN14, SCC14, SSCC18, UPCA, UPCE, ISBN, ISSN,<br>ISMN, Standard2of5, Interleaved2of5, Matrix2of5, ItalianPost25, IATA2of5, ITF14,<br>ITF6, MSI, VIN, DeutschePostIdentcode, DeutschePostLeitcode, OPC, PZN, Code16K,<br>Pharmacode, DataMatrix, QR, Aztec, Pdf417, MacroPdf417, AustraliaPost, Postnet,<br>Planet, OneCode, RM4SCC, DatabarOmniDirectional, DatabarTruncated, DatabarLimited,<br>DatabarExpanded, SingaporePost, GS1DataMatrix, AustralianPosteParcel,<br>SwissPostParcel, PatchCode, DatabarExpandedStacked, DatabarStacked,<br>DatabarStackedOmniDirectional, MicroPdf417, GS1QR, MaxiCode, Code32, DataLogic2of5,<br>DotCode, DutchKIX, UpcaGs1Code128Coupon, UpcaGs1DatabarCoupon, CodablockF, GS1CodablockF|<p>(Optional parameter)</p><p>Type of barcode to generate</p>|
