@@ -42,6 +42,7 @@ npm install aspose-barcode-cloud-node --save
 
 ```
 {{< /tab >}}
+{{< /tabs >}}
 
 ## **Make an API request from the SDK of your choice**
 Use the **App SID** and **App key (secret key)** from the API app client you created in step one and replace in the corresponding code.
@@ -110,3 +111,4 @@ api.barCodeGetBarCodeGenerate("Aspose.BarCode for Cloud Sample", "Pdf417", "png"
 
 ```
 {{< /tab >}}
+{{< /tabs >}}
