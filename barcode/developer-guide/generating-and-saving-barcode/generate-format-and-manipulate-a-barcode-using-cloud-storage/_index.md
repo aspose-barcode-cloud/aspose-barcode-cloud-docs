@@ -4,8 +4,9 @@ type: docs
 url: /generate-format-and-manipulate-a-barcode-using-cloud-storage/
 weight: 10
 ---
-
+## **Introduction**
 Aspose.BarCode for Cloud has provided the simplest API to generate a barcode and save it on Aspose Cloud Storage.
+
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
