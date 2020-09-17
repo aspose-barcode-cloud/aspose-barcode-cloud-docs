@@ -17,15 +17,15 @@ The description of important API parameters and their valid values are given bel
 | :- | :- | :- |
 |name|String|The image file name|
 |Type|Codabar, Code11, Code39Standard, Code39Extended, Code93Standard, Code93Extended, <br>Code128, GS1Code128, EAN8, EAN13, EAN14, SCC14, SSCC18, UPCA, UPCE, ISBN, ISSN, <br>ISMN, Standard2of5, Interleaved2of5, Matrix2of5, ItalianPost25, IATA2of5, ITF14, <br>ITF6, MSI, VIN, DeutschePostIdentcode, DeutschePostLeitcode, OPC, PZN, Code16K, <br>Pharmacode, DataMatrix, QR, Aztec, Pdf417, MacroPdf417, AustraliaPost, Postnet, <br>Planet, OneCode, RM4SCC, DatabarOmniDirectional, DatabarTruncated, DatabarLimited, <br>DatabarExpanded, SingaporePost, GS1DataMatrix, AustralianPosteParcel, <br>SwissPostParcel, PatchCode, DatabarExpandedStacked, DatabarStacked, <br>DatabarStackedOmniDirectional, MicroPdf417, GS1QR, MaxiCode, Code32, DataLogic2of5, <br>DotCode, DutchKIX, UpcaGs1Code128Coupon, UpcaGs1DatabarCoupon, CodablockF, GS1CodablockF|Type of barcode to generate|
-|Text|` `String|Text to encode|
-|TwoDDisplayText|` `String|<p>Optional parameter</p><p>Text that will be displayed instead of codetext in 2D barcodes.<br>Used for: Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode</p>|
-|TextLocation|` `Below, Above, None|<p>(Optional parameter)</p><p>Displaying Text Location</p>|
-|TextAlignment|` `Left, Center, Right|<p>(Optional parameter)</p><p>Text alignment</p>|
-|TextColor|` `Default value: Color.Black|<p>(Optional parameter)</p><p>Displaying CodeText's Color</p>|
-|FontSizeMode|` `Auto, Manual|<p>(Optional parameter)</p><p>If FontSizeMode is set to Auto, font size will be calculated automatically based on xDimension value.<br>It is recommended to use FontSizeMode.Auto especially in AutoSizeMode.Nearest or AutoSizeMode.Interpolation</p>|
-|Resolution|` `Number|<p>(Optional parameter)</p><p>Resolution of the BarCode image.<br>One value for both dimensions.<br>Default value: 96 dpi.</p>|
-|DimensionX|` `Number|<p>(Optional parameter)</p><p>The smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation</p>|
-|TextSpace|` `Number|<p>(Optional parameter)</p><p>Space between the CodeText and the BarCode in Unit value<br>Default value: 2pt<br>Ignored for EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon</p>|
+|Text|String|Text to encode|
+|TwoDDisplayText|String|<p>Optional parameter</p><p>Text that will be displayed instead of codetext in 2D barcodes.<br>Used for: Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode</p>|
+|TextLocation|Below, Above, None|<p>(Optional parameter)</p><p>Displaying Text Location</p>|
+|TextAlignment|Left, Center, Right|<p>(Optional parameter)</p><p>Text alignment</p>|
+|TextColor|Default value: Color.Black|<p>(Optional parameter)</p><p>Displaying CodeText's Color</p>|
+|FontSizeMode|Auto, Manual|<p>(Optional parameter)</p><p>If FontSizeMode is set to Auto, font size will be calculated automatically based on xDimension value.<br>It is recommended to use FontSizeMode.Auto especially in AutoSizeMode.Nearest or AutoSizeMode.Interpolation</p>|
+|Resolution|Number|<p>(Optional parameter)</p><p>Resolution of the BarCode image.<br>One value for both dimensions.<br>Default value: 96 dpi.</p>|
+|DimensionX|Number|<p>(Optional parameter)</p><p>The smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation</p>|
+|TextSpace|Number|<p>(Optional parameter)</p><p>Space between the CodeText and the BarCode in Unit value<br>Default value: 2pt<br>Ignored for EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon</p>|
 |Units|Pixel, Point, Inch, Millimeter|<p>(Optional parameter)</p><p>Common Units for all measuring in query. Default units: pixel</p>|
 |SizeMode|None, Nearest, Interpolation|<p>(Optional parameter)</p><p>Specifies the different types of automatic sizing modes.<br>Default value: AutoSizeMode.None</p>|
 |BarHeight|Number|<p>(Optional parameter)</p><p>Height of the barcode in given units. Default units: pixel</p>|
