@@ -14,7 +14,7 @@ Aspose.BarCode for Cloud has provided the simplest API to recognize a barcode an
 | :- | :- | :- | :- |
 |/barcode/{name}/recognize|GET|Recognize barcode from a file on server|[GetBarcodeRecognize](https://apireference.aspose.cloud/barcode/#/Barcode/GetBarcodeRecognize)|
 
-## **cURL Example**
+### **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}

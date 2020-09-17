@@ -13,7 +13,7 @@ Aspose.BarCode for Cloud has provided the simplest API to generate a barcode and
 | :- | :- | :- | :- |
 |/barcode/{name}/generate|PUT|Generate barcode and save on server (from query params or from file with json or xml content)|[PutBarcodeGenerateFile](https://apireference.aspose.cloud/barcode/#/Barcode/PutBarcodeGenerateFile)|
 
-## **cURL Example**
+### **cURL Example**
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

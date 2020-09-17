@@ -13,7 +13,7 @@ Aspose.BarCode for Cloud has provided the simplest API to generate a barcode and
 | :- | :- | :- | :- |
 |/barcode/generate|GET|Generate barcode|[GetBarcodeGenerate](https://apireference.aspose.cloud/barcode/#/Barcode/GetBarcodeGenerate)|
 
-## **cURL Example**
+### **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}

@@ -15,7 +15,7 @@ This API lets you recognize a barcode from file on the server with parameters in
 |/barcode/recognize|POST|Recognize barcode from an url or from request body. Request body can contain raw data bytes of the image or encoded with base64|[PostBarcodeRecognizeFromUrlOrContent](https://apireference.aspose.cloud/barcode/#/Barcode/PostBarcodeRecognizeFromUrlOrContent)|
 
 
-## **cURL Example**
+### **cURL Example**
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
