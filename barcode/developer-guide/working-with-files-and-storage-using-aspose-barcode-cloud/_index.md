@@ -6,7 +6,7 @@ weight: 30
 ---
 
 ## **Introduction**
-Aspose.BarCode Cloud provides helper functions to work with files uploaded to Aspose.BarCode Cloud Storage or any other Cloud Storage of your choice. If you need any help getting started with setting third party storage please refer to [Aspose Cloud UI Help Topics](https://docs.aspose.cloud/display/totalcloud/Aspose+Cloud+UI+Help+Topics).
+Aspose.BarCode Cloud provides helper functions to work with files uploaded to Aspose.BarCode Cloud Storage or any other Cloud Storage of your choice. If you need any help getting started with setting third party storage please refer to [Aspose Cloud UI Help Topics](https://docs.aspose.cloud/total/aspose-cloud-ui-help-topics/).
 ## **Download a file from Cloud Storage**
 ### **API Information**
 
