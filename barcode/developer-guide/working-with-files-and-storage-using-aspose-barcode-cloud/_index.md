@@ -22,13 +22,13 @@ Aspose.BarCode Cloud provides helper functions to work with files uploaded to A
 
 //Create Request Token
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=XXXXX&client\_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl  -v -X GET "https://api.aspose.cloud/v3.0/barcode/storage/file/sample\_input.jpeg" -H "Content-Type: application/json"
+curl  -v -X GET "https://api.aspose.cloud/v3.0/barcode/storage/file/sample_input.jpeg" -H "Content-Type: application/json"
 
 ```
 
@@ -50,13 +50,13 @@ curl  -v -X GET "https://api.aspose.cloud/v3.0/barcode/storage/file/sample\_inpu
 
 //Create Request Token
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=XXXXX&client\_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl  -v -X PUT "https://api.aspose.cloud/v3.0/barcode/storage/file/sample\_input.jpeg" -H "Content-Type:application/octet-stream"
+curl  -v -X PUT "https://api.aspose.cloud/v3.0/barcode/storage/file/sample_input.jpeg" -H "Content-Type:application/octet-stream"
 
 ```
 
@@ -68,7 +68,7 @@ curl  -v -X PUT "https://api.aspose.cloud/v3.0/barcode/storage/file/sample\_inpu
 
 {
    "uploaded":[
-      "sample\_input.tiff"
+      "sample_input.tiff"
    ],
    "errors":[
    ]
@@ -95,13 +95,13 @@ curl  -v -X PUT "https://api.aspose.cloud/v3.0/barcode/storage/file/sample\_inpu
 
 //Create Request Token
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=XXXXX&client\_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -v -X PUT "https://api.aspose.cloud/v3.0/barcode/storage/file/copy/sample\_input.jpeg" -H "Content-Type:application/json" 
+curl -v -X PUT "https://api.aspose.cloud/v3.0/barcode/storage/file/copy/sample_input.jpeg" -H "Content-Type:application/json" 
 
 ```
 
@@ -124,13 +124,13 @@ curl -v -X PUT "https://api.aspose.cloud/v3.0/barcode/storage/file/copy/sample\_
 
 //Create Request Token
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=XXXXX&client\_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -v -X PUT "https://api.aspose.cloud/v3.0/barcode/storage/file/move/sample\_input.jpeg" -H "Content-Type:application/json" 
+curl -v -X PUT "https://api.aspose.cloud/v3.0/barcode/storage/file/move/sample_input.jpeg" -H "Content-Type:application/json" 
 
 ```
 
@@ -152,7 +152,7 @@ curl -v -X PUT "https://api.aspose.cloud/v3.0/barcode/storage/file/move/sample\_
 
 //Create Request Token
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=XXXXX&client\_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
