@@ -7,7 +7,7 @@ weight: 10
 
 {{% alert color="primary" %}} 
 
-The page contains release notes for Aspose.BarCode for Cloud update 1.8.0 – [API Version 1.1](http://api.aspose.com/v1.1/swagger/ui/index). Codebase has been upgraded to [Aspose.Barcode for .NET version: 8.1.0](http://www.aspose.com/docs/display/barcodenet/Aspose.BarCode+for+.NET+8.1.0+Release+Notes) in this release.
+The page contains release notes for Aspose.BarCode for Cloud update 1.8.0 – [API Version 1.1](http://api.aspose.com/v1.1/swagger/ui/index). Codebase has been upgraded to [Aspose.Barcode for .NET version: 8.1.0](https://docs.aspose.com/barcode/net/aspose-barcode-for-net-8-1-0-release-notes/) in this release.
 
 {{% /alert %}} 
 ## **Full List of Issues Covering all Changes in this Release**
