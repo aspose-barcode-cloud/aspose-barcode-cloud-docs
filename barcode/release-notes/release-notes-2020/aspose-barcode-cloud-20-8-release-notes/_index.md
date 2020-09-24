@@ -12,7 +12,7 @@ The page contains release notes for Aspose.BarCode for Cloud 20.8 – [API Refe
 {{% /alert %}} 
 ## **SDK Changes**
 ### **Aspose.BarCode Cloud SDKs ( .NET, Node.js, Python, PHP, Go)**
-Update to new [Aspose.BarCode Cloud 20.7](/aspose-barcode-cloud-20-7-release-notes/)
+Update to new [Aspose.BarCode Cloud 20.7](/tasks/aspose-barcode-cloud-20-7-release-notes/)
 #### **New parameters added**
 - **patchCode.ExtraBarcodeText**
 - **patchCode.PatchFormat**
