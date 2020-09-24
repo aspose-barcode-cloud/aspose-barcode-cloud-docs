@@ -4,5 +4,3 @@ type: docs
 url: /release-notes-2017/
 weight: 30
 ---
-
-### **Release Notes - 2017**
