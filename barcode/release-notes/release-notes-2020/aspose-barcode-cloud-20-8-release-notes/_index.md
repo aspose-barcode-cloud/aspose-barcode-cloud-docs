@@ -2,7 +2,7 @@
 title: "Aspose.BarCode Cloud 20.8 Release Notes"
 type: docs
 url: /aspose-barcode-cloud-20-8-release-notes/
-weight: 10
+weight: 20
 ---
 
 {{% alert color="primary" %}} 
