@@ -70,7 +70,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-generating-saving-cloud-storage-create-barcode-and-save-asposecloudstorage-1.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-PutBarcodeGenerateFileOnCloudStorage.php" >}}
 
 {{< /tab >}}
 
@@ -110,7 +110,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-generating-saving-cloud-storage-generate-a-codablockf-type-barcode-.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-GenerateASpecificBarcode.php" >}}
 
 {{< /tab >}}
 
@@ -150,7 +150,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-generating-saving-cloud-storage-set-barcode-image-resolution-1.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-SetBarcodeImageResolution.php" >}}
 
 {{< /tab >}}
 
@@ -190,7 +190,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-generating-saving-cloud-storage-specify-codetext-and-symbology-for-barcode-1.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-SpecifyCodetextAndSymbology.php" >}}
 
 {{< /tab >}}
 
@@ -230,7 +230,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-generating-saving-cloud-storage-set-x-and-y-dimensions-of-barcode-1.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-SetDimensionOfBarcode.php" >}}
 
 {{< /tab >}}
 
@@ -270,7 +270,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-generating-saving-cloud-storage-specify-barcode-image-save-format-1.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-SpecifyBarcodeImageSaveFormat.php" >}}
 
 {{< /tab >}}
 
@@ -310,7 +310,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-generating-saving-cloud-storage-generate-barcode-with-appropriate-codetext-location-1.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-SpecifyBarcodeTextLocation.php" >}}
 
 {{< /tab >}}
 
@@ -323,8 +323,6 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 {{< tab tabNum="5" >}}
 
 {{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-cloud-storage-generate-barcode-with-appropriate-codetext-location-1.js" >}}
-
-
 
 {{< /tab >}}
 
@@ -352,7 +350,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-generating-saving-cloud-storage-generate-barcode-with-checksum-option-1.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-GenerateBarcodeWithChecksumOption.php" >}}
 
 {{< /tab >}}
 
@@ -392,7 +390,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-generating-saving-cloud-storage-rotate-barcode-image-with-suitable-angle-1.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-RotateBarcodeImage.php" >}}
 
 {{< /tab >}}
 
@@ -432,7 +430,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-generating-saving-cloud-storage-set-barcode-image-height-width-quality-settings-1.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-SetBarcodeImageSize.php" >}}
 
 {{< /tab >}}
 
@@ -472,7 +470,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-generating-saving-cloud-storage-set-bars-height-in-barcodeimage-1.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-SetBarcodeBarsHeight.php" >}}
 
 {{< /tab >}}
 
@@ -496,7 +494,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< /tabs >}}
 #### **Generate Multiple Barcodes**
-{{< tabs tabTotal="5" tabID="15" tabName1="C#" tabName2="Java" tabName3="Node.js" tabName4="Python" tabName5="Go" >}}
+{{< tabs tabTotal="5" tabID="15" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Node.js" tabName5="Python" tabName6="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -512,17 +510,21 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-GenerateMultipleBarcodes.php" >}}
+
+{{< tab tabNum="4" >}}
+
 {{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-cloud-storage-generate-multiple-barcodes-1.js" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="4" >}}
+{{< tab tabNum="5" >}}
 
 {{< gist "aspose-cloud" "0aa6c08db374c01e73733544e6c7d2b1" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="5" >}}
+{{< tab tabNum="6" >}}
 
 {{< gist "aspose-cloud" "fe445405c2505fad3da886bb2a1c5811" >}}
 

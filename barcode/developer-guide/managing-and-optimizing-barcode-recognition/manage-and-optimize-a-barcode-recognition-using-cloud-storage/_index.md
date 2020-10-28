@@ -84,7 +84,7 @@ curl -v "https://api.aspose.cloud/v3.0/barcode/sample-barcode.png/recognize?type
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-managing-recognition-cloud-storage-read-barcode-from-aspose-cloud-storage-1.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-RecognizeBarcodeFromStorage.php" >}}
 
 {{< /tab >}}
 
@@ -124,7 +124,7 @@ curl -v "https://api.aspose.cloud/v3.0/barcode/sample-barcode.png/recognize?type
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-managing-recognition-cloud-storage-read-barcode-from-specific-region-of-image-1.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-ReadBarcodeFromSpecificRegion.php" >}}
 
 {{< /tab >}}
 
