@@ -86,7 +86,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-managing-recognition-without-cloud-storage-read-barcode-from-localfile-.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-ReadBarcodeFromLocal.php" >}}
 
 {{< /tab >}}
 
@@ -126,7 +126,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-managing-recognition-without-cloud-storage-read-barcode-from-external-image-url-.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-ReadBarcodeFromUrl.php" >}}
 
 {{< /tab >}}
 
@@ -166,7 +166,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-managing-recognition-without-cloud-storage-post-barcode-recognize-from-request-body-.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-ReadBarcodeFromRequestBody.php" >}}
 
 {{< /tab >}}
 
@@ -206,7 +206,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-generating-saving-cloud-storage-generate-barcode-with-checksum-option-1.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-RecogniseBarcodeWithChecksumOption.php" >}}
 
 {{< /tab >}}
 

@@ -64,7 +64,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "8882af24a0597b7c756eaa5186ee8125" "Examples-PHP-generating-saving-without-cloud-storage-generate-barcode-and-get-image-as-stream-1.php" >}}
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-GenerateABarcodeAndGetImageStream.php" >}}
 
 {{< /tab >}}
 
@@ -88,7 +88,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< /tabs >}}
 #### **Generate a Barcode and Save Image to Local Disk**
-{{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Node.js" tabName5="Go" >}}
+{{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="Java" tabName3="Python" tabName4="Python" tabName5="Node.js" tabName6="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -104,17 +104,21 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
+{{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-GenerateBarcodeAndSaveImageToLocalDisk.php" >}}
+
+{{< tab tabNum="4" >}}
+
 {{< gist "aspose-cloud" "706b16f43ebbc5289518eef1d8ba4899" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="4" >}}
+{{< tab tabNum="5" >}}
 
 {{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-without-cloud-storage-create-barcode-and-saveimage-to-localdisk-1.js" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="5" >}}
+{{< tab tabNum="6" >}}
 
 {{< gist "aspose-cloud" "a63947a5e7dfb70d5967d2ea2fbeea47" >}}
 
