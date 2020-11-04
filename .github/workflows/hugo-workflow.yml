@@ -1,0 +1,16 @@
+name: Hugo-CI
+on:
+  push:
+    branches:
+      - develop
+    paths-ignore: ".github/**"
+
+jobs:
+  job-one:
+    name: Deploy
+    runs-on: [self-hosted, linux, x64, dev4-barcode-cloud]
+    steps:
+      - name: hugo build
+        run: |
+          cd aspose-barcode-cloud-docs && git stash && git pull && cd -
+
