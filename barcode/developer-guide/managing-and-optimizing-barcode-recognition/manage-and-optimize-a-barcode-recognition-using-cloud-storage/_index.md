@@ -96,7 +96,7 @@ curl -v "https://api.aspose.cloud/v3.0/barcode/sample-barcode.png/recognize?type
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-managing-recognition-cloud-storage-read-barcode-from-aspose-cloud-storage-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-RecognizeBarcodeFromStorage.ts" >}}
 
 {{< /tab >}}
 
@@ -136,7 +136,7 @@ curl -v "https://api.aspose.cloud/v3.0/barcode/sample-barcode.png/recognize?type
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-managing-recognition-cloud-storage-read-barcode-from-specific-region-of-image-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-ReadBarcodeFromSpecificRegion.ts" >}}
 
 {{< /tab >}}
 
