@@ -82,7 +82,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-cloud-storage-create-barcode-and-save-asposecloudstorage-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-PutBarcodeGenerateFileOnCloudStorage.ts" >}}
 
 {{< /tab >}}
 
@@ -122,7 +122,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-cloud-storage-GenerateCodablockFBarCode-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-GenerateASpecificBarcode.ts" >}}
 
 {{< /tab >}}
 
@@ -162,7 +162,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-cloud-storage-set-barcode-image-resolution-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-SetBarcodeImageResolution.ts" >}}
 
 {{< /tab >}}
 
@@ -202,7 +202,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-cloud-storage-specify-codetext-and-symbology-for-barcode-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-SpecifyCodetextAndSymbology.ts" >}}
 
 {{< /tab >}}
 
@@ -214,7 +214,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< /tabs >}}
 #### **Set Dimensions of a Barcode**
-{{< tabs tabTotal="6" tabID="8" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Node.js" tabName5="Python" tabName6="Go" >}}
+{{< tabs tabTotal="6" tabID="8" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Node.js" tabName6="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -236,13 +236,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-cloud-storage-set-x-and-y-dimensions-of-barcode-1.js" >}}
+{{< gist "aspose-cloud" "56ea289c7dcbf846f0995886f70f1f06" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-cloud" "56ea289c7dcbf846f0995886f70f1f06" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-SetDimensionOfBarcode.ts" >}}
 
 {{< /tab >}}
 
@@ -254,7 +254,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< /tabs >}}
 #### **Specify Barcode Image Save Format**
-{{< tabs tabTotal="6" tabID="9" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Node.js" tabName5="Python" tabName6="Go" >}}
+{{< tabs tabTotal="6" tabID="9" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Node.js" tabName6="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -276,13 +276,13 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-cloud-storage-specify-barcode-image-save-format-1.js" >}}
+{{< gist "aspose-cloud" "2bf0dab342dc89961a43b99eba86996e" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-cloud" "2bf0dab342dc89961a43b99eba86996e" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-SpecifyBarcodeImageSaveFormat.ts" >}}
 
 {{< /tab >}}
 
@@ -322,7 +322,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-cloud-storage-generate-barcode-with-appropriate-codetext-location-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-SpecifyBarcodeTextLocation.ts" >}}
 
 {{< /tab >}}
 
@@ -362,7 +362,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-cloud-storage-generate-barcode-with-checksum-option-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-GenerateBarcodeWithChecksumOption.ts" >}}
 
 {{< /tab >}}
 
@@ -402,7 +402,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-cloud-storage-rotate-barcode-image-with-suitable-angle-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-RotateBarcodeImage.ts" >}}
 
 {{< /tab >}}
 
@@ -442,7 +442,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-cloud-storage-set-barcode-image-height-width-quality-settings-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-SetBarcodeImageSize.ts" >}}
 
 {{< /tab >}}
 
@@ -482,7 +482,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-cloud-storage-set-bars-height-in-barcodeimage-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-SetBarcodeBarsHeight.ts" >}}
 
 {{< /tab >}}
 
@@ -494,7 +494,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< /tabs >}}
 #### **Generate Multiple Barcodes**
-{{< tabs tabTotal="5" tabID="15" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Node.js" tabName5="Python" tabName6="Go" >}}
+{{< tabs tabTotal="5" tabID="15" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Node.js" tabName6="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -512,15 +512,17 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< gist "aspose-cloud" "7dd7c6f477aeb4eabd1afc57e6913ccd" "Example-GenerateMultipleBarcodes.php" >}}
 
+{{< /tab >}}
+
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-cloud-storage-generate-multiple-barcodes-1.js" >}}
+{{< gist "aspose-cloud" "0aa6c08db374c01e73733544e6c7d2b1" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-cloud" "0aa6c08db374c01e73733544e6c7d2b1" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-GenerateMultipleBarcodes.ts" >}}
 
 {{< /tab >}}
 

@@ -76,7 +76,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-without-cloud-storage-create-barcode-and-get-image-as-stream-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-GenerateABarcodeAndGetImageStream.ts" >}}
 
 {{< /tab >}}
 
@@ -114,7 +114,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-generating-saving-without-cloud-storage-create-barcode-and-saveimage-to-localdisk-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-GenerateBarcodeAndSaveImageToLocalDisk.ts" >}}
 
 {{< /tab >}}
 

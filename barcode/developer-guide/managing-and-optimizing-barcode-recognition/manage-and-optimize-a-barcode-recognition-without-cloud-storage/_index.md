@@ -98,7 +98,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-managing-recognition-without-cloud-storage-read-barcode-from-localfile-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-ReadBarcodeFromLocal.ts" >}}
 
 {{< /tab >}}
 
@@ -138,7 +138,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-managing-recognition-without-cloud-storage-read-barcode-from-external-image-url-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-ReadBarcodeFromUrl.ts" >}}
 
 {{< /tab >}}
 
@@ -178,7 +178,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-managing-recognition-without-cloud-storage-ReadBarcodeFromRequestBody-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-ReadBarcodeFromRequestBody.ts" >}}
 
 {{< /tab >}}
 
@@ -218,7 +218,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-barcode" "831958079e7a6ee3d9d4cca9be305966" "Examples-Node.js-managing-recognition-without-cloud-storage-read-barcodes-with-checksum-1.js" >}}
+{{< gist "aspose-cloud" "3d80ec0b502975afa622577a2ca7bf0a" "Example-RecogniseBarcodeWithChecksumOption.ts" >}}
 
 {{< /tab >}}
 
