@@ -10,7 +10,7 @@ The first thing you need to do to get started with Aspose for Cloud is sign up f
 ## **Create an API client app**
 Before you can make any requests to Aspose for Cloud API you need to [create an API client app](https://docs.aspose.cloud/total/create-new-app-and-get-app-key-and-sid/).
 
-This will give you **App SID** and **App key (secret key)** which you can use to invoke Aspose.Barcode for Cloud API. 
+This will give you **Client Id** and **Client Secret** which you can use to invoke Aspose.Barcode for Cloud API. 
 ## **Install the SDK of your choice**
 We provide and support API SDKs in many development languages in order to make it easier for you to integrate your application with us.
 
@@ -45,7 +45,7 @@ npm install aspose-barcode-cloud-node --save
 {{< /tabs >}}
 
 ## **Make an API request from the SDK of your choice**
-Use the **App SID** and **App key (secret key)** from the API app client you created in step one and replace in the corresponding code.
+Use the **Client Id** and **Client Secret** from the API app client you created in step one and replace in the corresponding code.
 
 {{< tabs tabTotal="3" tabID="12" tabName1=".NET" tabName2="PHP" tabName3="Node.js">}}
 
@@ -53,7 +53,7 @@ Use the **App SID** and **App key (secret key)** from the API app client you cre
 
 ```java
 
-var barCodeApi = new BarCodeApi(AppKey, AppSid);
+var barCodeApi = new BarCodeApi(ClientSecret, ClientId);
 using (Stream response = api.BarCodeGetBarCodeGenerate(new BarCodeGetBarCodeGenerateRequest("Sample text", "Code128", "jpg")))
 using (FileStream stream = File.Create("out.jpg"))
 {
@@ -68,7 +68,7 @@ using (FileStream stream = File.Create("out.jpg"))
 
 ```php
 
-var barCodeApi = new BarCodeApi(AppKey, AppSid);
+var barCodeApi = new BarCodeApi(ClientSecret, ClientId);
 using (Stream response = api.BarCodeGetBarCodeGenerate(new BarCodeGetBarCodeGenerateRequest("Sample text", "Code128", "jpg")))
 using (FileStream stream = File.Create("out.jpg"))
 {
@@ -84,7 +84,7 @@ using (FileStream stream = File.Create("out.jpg"))
 ```javascript
 
 const { barcode, fs } = require("aspose-barcode-cloud-node", "fs");
-var api = new barcode.BarCodeApi(AppSid, AppKey);
+var api = new barcode.BarCodeApi(ClientId, ClientSecret);
 api.barCodeGetBarCodeGenerate("Aspose.BarCode for Cloud Sample", "Pdf417", "png").then((apiResult) => {
     if (apiResult.response.statusCode == 200) {
         fs.writeFile("out.png", apiResult.body);
