@@ -22,7 +22,7 @@ Aspose.BarCode for Cloud has provided the simplest API to generate a barcode and
 ```java
 
 // First get Access Token
-// Get App Key and App SID from https://dashboard.aspose.cloud/
+// Get Client Secret and Client Id from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d 'grant_type=client_credentials&client_idXXXXXXXXX&client_secret=XXXXXXXXX' -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 

@@ -24,7 +24,7 @@ This API lets you recognize a barcode from file on the server with parameters in
 ```java
 
 // First get Access Token
-// Get App Key and App SID from https://dashboard.aspose.cloud/
+// Get Client Secret and Client Id from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d 'grant_type=client_credentials&client_id=XXXXXXXXX&client_secret=XXXXXXXXX' -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
@@ -33,7 +33,7 @@ curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d 'grant_type=client_cr
 
 // cURL example to generate barcode and recognize a barcode from file on the server with parameters in the request body
 
-curl -v "https://api.aspose.cloud/v3.0/barcode/recognize?Type=Code128&ChecksumValidation=On&url=http%3A%2F%2Fwww.barcoding.com%2Fimages%2FBarcodes%2Fcode93.gif" -X POST -H "Content-Type: application/json" -H "Accept: application/json" 
+curl -v "https://api.aspose.cloud/v3.0/barcode/recognize?Type=Code128&ChecksumValidation=On&url=http%3A%2F%2Fwww.barcoding.com%2Fimages%2FBarcodes%2Fcode93.gif" -X POST -H "Content-Type: application/json" -H "Accept: application/json"
 
 ```
 
