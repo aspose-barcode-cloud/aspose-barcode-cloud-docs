@@ -11,24 +11,24 @@ The page contains release notes for Aspose.BarCode for Cloud 21.2 – [API Refer
 
 {{% /alert %}}
 
-## Complete List of Changes Covered in this Release
+## **Complete List of Changes Covered in this Release**
 
 - Update Aspose.BarCode for .Net to version 21.1 (previous version was 20.12):
   - [Aspose.BarCode for .Net to version 21.1 Release Notes](https://docs.aspose.com/barcode/net/aspose-barcode-for-net-21-01-release-notes/)
 
-## SDK Changes
+## **SDK Changes**
 
-### Aspose.BarCode Cloud SDKs ( .NET, Java, Node.js, Python, PHP, Go)
+### **Aspose.BarCode Cloud SDKs ( .NET, Java, Node.js, Python, PHP, Go)**
 
 Update to new [Aspose.BarCode Cloud 21.2](/barcode/aspose-barcode-cloud-21-2-release-notes/)
 
-### New parameters
+### **New parameters**
 
-#### Recognize barcode
+#### **Recognize barcode**
 
 - **CheckMore1DVariants** Allows engine to recognize 1D barcodes with checksum by checking more recognition variants. Default value: False
 
-#### Generate barcode
+#### **Generate barcode**
 
 - Barcode type **Pdf417**
   - **MacroTimeStamp** Macro Pdf417 barcode time stamp
