@@ -6,7 +6,7 @@ weight: 20
 ---
 
 ## **Introduction**
-This API lets you recognize a barcode from file on the server with parameters in the request body.
+Aspose.BarCode for Cloud provided the simplest API which lets you recognize a barcode from file on the server with parameters in the request body. This API can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 
 ## **API Information**
 

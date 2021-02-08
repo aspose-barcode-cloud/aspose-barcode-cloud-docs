@@ -6,7 +6,7 @@ weight: 10
 ---
 
 ## **Introduction**
-Aspose.BarCode for Cloud has provided the simplest API to recognize a barcode and save it on Aspose Cloud Storage.
+Aspose.BarCode for Cloud has provided the simplest API to recognize a barcode and save it on Aspose Cloud Storage. This API can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 
 ## **API Information**
 
