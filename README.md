@@ -1,1 +1,4 @@
-This repository contains Aspose.BarCode Cloud documentation.
+Aspose.BarCode Cloud documentation
+==================================
+
+<https://docs.aspose.cloud/barcode/>

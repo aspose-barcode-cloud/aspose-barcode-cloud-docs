@@ -22,7 +22,7 @@ Aspose.BarCode for Cloud has provided the simplest API to recognize a barcode an
 ```java
 
 // First get Access Token
-// Get App Key and App SID from https://dashboard.aspose.cloud/
+// Get Client Secret and Client Id from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d 'grant_type=client_credentials&client_id=XXXXXXXXX&client_secret=XXXXXXXXX' -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
@@ -31,7 +31,7 @@ curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d 'grant_type=client_cr
 
 // cURL example to recognize a barcode
 
-curl -v "https://api.aspose.cloud/v3.0/barcode/sample-barcode.png/recognize?type=Code128&format=png" -X GET -H "Content-Type: application/json" -H "Accept: application/json" 
+curl -v "https://api.aspose.cloud/v3.0/barcode/sample-barcode.png/recognize?type=Code128&format=png" -X GET -H "Content-Type: application/json" -H "Accept: application/json"
 
 ```
 
