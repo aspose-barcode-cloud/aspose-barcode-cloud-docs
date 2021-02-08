@@ -5,7 +5,7 @@ url: /generate-format-and-manipulate-a-barcode-without-cloud-storage/
 weight: 20
 ---
 ## **Introduction**
-Aspose.BarCode for Cloud has provided the simplest API to generate a barcode and get image as a stream object in an easy way without using any cloud storage operation.
+Aspose.BarCode for Cloud has provided the simplest API to generate a barcode and get image as a stream object in an easy way without using any cloud storage operation. This API can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 
 ## **API Information**
 
