@@ -14,7 +14,7 @@ Our supported SDKs are 100% tested and out of the box running. These SDKs are op
 ## **Supported SDKs**
 
 
-{{< tabs tabTotal="6" tabID="1" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Node.js" tabName6="Go" >}}
+{{< tabs tabTotal="6" tabID="1" tabName1=".NET" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Node.js" tabName6="Go" >}}
 
 {{< tab tabNum="1" >}}
 
