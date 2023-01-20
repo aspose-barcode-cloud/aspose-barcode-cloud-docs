@@ -20,7 +20,7 @@ url: /product-features/
 - Working with complex barcodes (e.g. Swiss QR Code) 
 
 ## **Barcode Recognition**
-- Reading 1D and 2D barcodes at any angle from an image
+- Class [*BarCodeReader*](https://reference.aspose.com/barcode/net/aspose.barcode.barcoderecognition/barcodereader): reading 1D and 2D barcodes at any angle from an image
 - Supporting popular image formats: JPEG, TIFF, PNG, BMP, and GIF
 - Reading images with resolution from 75 to 600 dpi
 - Reading highly blurred or noised images
@@ -35,7 +35,7 @@ url: /product-features/
 - Scanning from multi-page TIFF through System.Drawing
 
 ## **Barcode Generation**
-- Generating barcode labels according to required settings
+- Class [*BarcodeGenerator*](https://reference.aspose.com/barcode/net/aspose.barcode.generation/barcodegenerator): generating barcode labels according to required settings
 - Providing a wide range of options to customize barcode image appearance (size, resolution, height, background color, bar color, rotation angle, X-dimension, image quality, captions, wide-to-narrow-ratio, and others)
 - Saving barcode labels in various image formats: JPEG, TIFF, PNG, BMP, GIF, EMF, and SVG 
 - Customizing the barcode encoding type and parameters
