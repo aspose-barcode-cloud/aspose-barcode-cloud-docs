@@ -1,20 +1,26 @@
+#!/usr/bin/env python
+
 import os
 import re
 from collections import namedtuple
 import operator
 from typing import List
 
-RELEASE_NOTES_RE = re.compile(r'release-notes-(?P<key>\d+)')
-BARCODE_VERSION_RE = re.compile(r'aspose-barcode(?:-for)?-cloud-(\d+)-(\d+)(?:-(\d+))?-release-notes')
+RELEASE_NOTES_RE = re.compile(r"release-notes-(?P<key>\d+)")
+BARCODE_VERSION_RE = re.compile(
+    r"aspose-barcode(?:-for)?-cloud-(\d+)-(\d+)(?:-(\d+))?-release-notes"
+)
 
-WEIGHT_RE = re.compile(r'^\s*weight:\s*(?P<weight>\d+)\s*$')
+WEIGHT_RE = re.compile(r"^\s*weight:\s*(?P<weight>\d+)\s*$")
 
 SCRIPT_DIR = os.path.abspath(os.path.dirname(__file__))
 
-RELEASE_NOTES_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, '..', 'barcode', 'release-notes'))
+RELEASE_NOTES_DIR = os.path.abspath(
+    os.path.join(SCRIPT_DIR, "..", "barcode", "release-notes")
+)
 assert os.path.isdir(RELEASE_NOTES_DIR)
 
-Item = namedtuple('Item', ('key', 'weight', 'memo'))
+Item = namedtuple("Item", ("key", "weight", "memo"))
 
 
 def list_dirs(root: str):
@@ -22,17 +28,19 @@ def list_dirs(root: str):
 
 
 def get_weight_from_index(index_filename: str) -> int:
-    with open(index_filename, 'rt') as f:
+    with open(index_filename, "rt") as f:
         for line in f.readlines():
             match = WEIGHT_RE.match(line)
             if match:
-                return int(match.groupdict()['weight'])
+                return int(match.groupdict()["weight"])
         else:
-            raise Exception(f"Pattern {WEIGHT_RE.pattern} not found in '{index_filename}'")
+            raise Exception(
+                f"Pattern {WEIGHT_RE.pattern} not found in '{index_filename}'"
+            )
 
 
 def get_dir_weight(dirname: str) -> int:
-    index = os.path.join(dirname, '_index.md')
+    index = os.path.join(dirname, "_index.md")
     return get_weight_from_index(index)
 
 
@@ -43,14 +51,16 @@ def extract_version(s: str, regex: re.Pattern) -> tuple[int]:
 
 
 def assert_sorted(items: List[Item]) -> bool:
-    reverse_sorted_items = sorted(items, key=operator.attrgetter('key'), reverse=True)
+    reverse_sorted_items = sorted(items, key=operator.attrgetter("key"), reverse=True)
     prev_item = None
     for item in reverse_sorted_items:
         if prev_item is None:
             prev_item = item
             continue
 
-        assert item.weight > prev_item.weight, f"'{item.memo}.weight' should be greater than '{prev_item.memo}.weight'"
+        assert (
+            item.weight > prev_item.weight
+        ), f"'{prev_item.memo}.weight' ({prev_item.weight}) should be less than '{item.memo}.weight' ({item.weight})"
         return False
     return True
 
@@ -76,5 +86,5 @@ def main():
     print("All release notes sorted!")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
