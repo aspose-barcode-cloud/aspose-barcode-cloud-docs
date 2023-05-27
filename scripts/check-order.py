@@ -4,7 +4,7 @@ import os
 import re
 from collections import namedtuple
 import operator
-from typing import List
+from typing import List, Optional
 
 RELEASE_NOTES_RE = re.compile(r"release-notes-(?P<key>\d+)")
 BARCODE_VERSION_RE = re.compile(
@@ -39,8 +39,11 @@ def get_weight_from_index(index_filename: str) -> int:
             )
 
 
-def get_dir_weight(dirname: str) -> int:
+def get_dir_weight(dirname: str) -> Optional[int]:
     index = os.path.join(dirname, "_index.md")
+    if not os.path.isfile(index):
+        return None
+
     return get_weight_from_index(index)
 
 
@@ -66,23 +69,25 @@ def assert_sorted(items: List[Item]) -> bool:
 
 
 def check_sorted(root, regex):
-    items = []
+    weights = []
     for dir_name in list_dirs(root):
         version = extract_version(dir_name, regex)
         weight = get_dir_weight(os.path.join(root, dir_name))
-        items.append(Item(key=version, weight=weight, memo=dir_name))
+        if weight is None:
+            continue
+        weights.append(Item(key=version, weight=weight, memo=dir_name))
 
-    return assert_sorted(items)
+    return assert_sorted(weights)
 
 
 def main():
-    items = []
+    weights = []
     for rn in list_dirs(RELEASE_NOTES_DIR):
         check_sorted(os.path.join(RELEASE_NOTES_DIR, rn), BARCODE_VERSION_RE)
         key = extract_version(rn, RELEASE_NOTES_RE)
         weight = get_dir_weight(os.path.join(RELEASE_NOTES_DIR, rn))
-        items.append(Item(key=key, weight=weight, memo=rn))
-    assert_sorted(items)
+        weights.append(Item(key=key, weight=weight, memo=rn))
+    assert_sorted(weights)
     print("All release notes sorted!")
 
 
