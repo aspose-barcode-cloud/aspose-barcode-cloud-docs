@@ -18,4 +18,4 @@ The page contains release notes for Aspose.BarCode for Cloud 23.5 – [API Refer
 
 ### **New parameters**
 
-- Code128EncodeMode - Encoding mode for Code128 barcodes. Code 128 specification\nDefault value: Code128EncodeMode.Auto.
+- Code128EncodeMode - Encoding mode for Code128 barcodes. Code 128 specification. Default value: Code128EncodeMode.Auto.
