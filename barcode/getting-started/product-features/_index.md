@@ -10,10 +10,9 @@ url: /product-features/
 ## **General Features**
 - Barcode generation
 - Barcode recognition
-- Symbology specification (60+ symbologies: 1D, 2D, and postal types)
+- Supporting a vast variety of barcode specifications (60+ symbologies: 1D, 2D, and postal types)
 - Managing barcode appearance-related parameters
 - Image rotation
-- Encoding and decoding non-English characters in 2D types
 - Customizing recognition engine variables
 - Saving to or loading from a stream or a file
 - Label printing
@@ -26,13 +25,10 @@ url: /product-features/
 - Reading highly blurred or noised images
 - Specifying image areas to scan barcodes
 - Predefining target barcode types
-- Managing recognition engine variables to reach the best trade-off between reading speed and quality (both manually and through embedded presets). For example, the following cases can be allowed for recognition: color barcodes on color background, dashed industrial Datamatrix barcodes, decreased images, damaged barcodes with incorrect text, damaged QR/MicroQR barcodes, and others
 - Detecting and then reading all barcodes presented in the scanned region
 - Reading barcodes of different 1D symbologies from a single scanned region
 - Defining the angle and region information for all barcodes recognized in an image (using points, quadrangle, or rectangle to specify a bounding barcode region)
 - Performing checksum validation for 1D and postal barcodes
-- Increasing the barcode detection speed through multi-threading
-- Scanning from multi-page TIFF through System.Drawing
 
 ## **Barcode Generation**
 - Generating barcode labels according to required settings

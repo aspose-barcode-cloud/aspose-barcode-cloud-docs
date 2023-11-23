@@ -5,6 +5,9 @@ url: /quickstart/
 weight: 30
 ---
 
+## **Overview**
+These instructions explain how to initialize Aspose.BarCode Cloud API and install the required libraries. You can easily embed barcode generation and decoding features into applications running on any modern OS. 
+
 ## **Create an account**
 The first thing you need to do to get started with Aspose for Cloud is sign up for a [free account](https://docs.aspose.cloud/total/creating-and-managing-account/).
 ## **Create an API client app**
