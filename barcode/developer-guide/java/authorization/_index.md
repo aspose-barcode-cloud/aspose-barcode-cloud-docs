@@ -1,8 +1,8 @@
 ---
-title: Authorization in Cloud SDK for .NET
+title: Authorization in Cloud SDK for Java
 linktitle: Authorization
 type: docs
-url: /cloud-dotnet/authorization/
+url: /cloud-java/authorization/
 weight: 10
 ---
 
@@ -39,10 +39,8 @@ curl --request POST --location 'https://api.aspose.cloud/v3.0/barcode' \
 ## **Authorize SDK Requests**
 The Cloud SDK facilitates the process of obtaining an access token and authorizing requests by simplifying these operations. When initializing the API, you only need to provide the values from the "Client ID" and "Client Secret" fields. The SDK takes care of the entire process on your behalf.
 
-```csharp
-Configuration conf = new Configuration();
-conf.AppSid = "CLIENT-ID-VALUE";
-conf.AppKey = "CLIENT-SECRET-VALUE";
-BarcodeApi api = new BarcodeApi(conf);
+```java
+Configuration.setAPP_SID("CLIENT-ID-VALUE");
+Configuration.setAPI_KEY("CLIENT-SECRET-VALUE");
 
 ```
