@@ -4,7 +4,7 @@ type: docs
 description: "This Article Describes How to Read Barcodes of Different Symbologies from Images or Stream and How to Detect All 1D Barcodes Presented in an Image"
 keywords: "Read barcode, Read Barcode from Stream, Scan Barcode from Image, Many Barcodes in One Image, Read PDF417 Barcode, Aspose.BarCode, Read Barcodes in Cloud"
 weight: 10
-url: /barcode-recognition-basics/
+url: /cloud-java/barcode-recognition-basics/
 
 ---
 

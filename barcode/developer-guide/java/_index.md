@@ -1,8 +1,8 @@
 ---
-title: Barcode Cloud SDK for .NET
-linktitle: .NET
+title: Barcode Cloud SDK for Java
+linktitle: Java
 type: docs
-url: /dotnet/
+url: /cloud-java/
 weight: 20
 ---
 

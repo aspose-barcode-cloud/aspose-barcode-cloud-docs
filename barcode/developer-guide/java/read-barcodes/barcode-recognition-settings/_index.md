@@ -4,7 +4,7 @@ type: docs
 description: "This article describes how to adjust various barcode recognition settings in Aspose.BarCode for Cloud according to business needs"
 keywords: "Read Barcode, Read Barcode from Stream, Scan Barcode from Image, Read Many Barcodes in One Image, Aspose.BarCode, Read Barcode in Cloud"
 weight: 20
-url: /recognition-settings/
+url: /cloud-java/recognition-settings/
 ---
   
 ## **Overview**

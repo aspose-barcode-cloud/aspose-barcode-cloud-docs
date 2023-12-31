@@ -2,7 +2,7 @@
 title: Barcode Cloud SDK for .NET
 linktitle: .NET
 type: docs
-url: /dotnet/
+url: /cloud-dotnet/
 weight: 20
 ---
 
