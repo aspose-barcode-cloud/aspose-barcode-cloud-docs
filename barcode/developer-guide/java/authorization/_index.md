@@ -12,13 +12,13 @@ Aspose.BarCode Cloud prioritizes data security by adhering to industry standards
 ## **Get Access Token**
 To obtain time-limited JWT tokens, follow these specific steps using Client ID and Client Secret credentials unique to each application:
 
-- Sign in to the [Aspose Cloud API Dashboard](https://dashboard.aspose.cloud/)
-- Navigate to page [Applications](https://dashboard.aspose.cloud/applications)
-- Click the **Create New Application** button
-- Assign an easily recognizable name and an optional detailed description to the application
-- Create cloud storage by clicking the plus icon and following the required steps. You can also reuse existing storage if available
-- Click the **Save** button
-- Access the newly created application and copy the values from the **Client Id** and **Client Secret** fields
+1. Sign in to the [Aspose Cloud API Dashboard](https://dashboard.aspose.cloud/)
+2. Navigate to page [Applications](https://dashboard.aspose.cloud/applications)
+3. Click the **Create New Application** button
+4. Assign an easily recognizable name and an optional detailed description to the application
+5. Create cloud storage by clicking the plus icon and following the required steps. You can also reuse existing storage if available
+6. Click the **Save** button
+7. Access the newly created application and copy the values from the **Client Id** and **Client Secret** fields
 
 To request an access token, send a POST request to https://api.aspose.cloud/connect/token with the following parameters in the request body (x-www-form-urlencoded):
 

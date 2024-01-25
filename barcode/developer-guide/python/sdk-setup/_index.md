@@ -10,21 +10,14 @@ weight: 20
 [Aspose.BarCode Cloud for Python](https://products.aspose.cloud/barcode/python/) is a cloud-based SDK designed for generating and recognizing barcodes effortlessly. This API facilitates barcode creation, recognition, and manipulation in the cloud environment without the need for additional software installation. It offers a user-friendly and efficient solution for barcode-related tasks. The instructions given below explain how to install the SDK and start working with the API.
 
 ## **Install SDK**
-First, add a repository.
+SDK package is available at package repository:
 
-```java
-<repository>
-    <id>aspose-cloud</id>
-    <name>Aspose.Cloud repository</name>
-    <url>https://repository.aspose.cloud/repo</url>
-</repository>
+- PYPI
 
-```
-Then, add a dependency.
+To install SDK, use pip:
 
-```java
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-barcode-cloud</artifactId>
-</dependency>
+```csharp
+
+pip install aspose-email-cloud
+
 ```
