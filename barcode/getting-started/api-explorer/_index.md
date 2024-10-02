@@ -1,9 +1,8 @@
 ---
-title: "Quickstart"
+title: "API Explorer"
 type: docs
-url: /quickstart/
+url: /api-exporer/
 weight: 30
 ---
 
 ## **Overview**
-
