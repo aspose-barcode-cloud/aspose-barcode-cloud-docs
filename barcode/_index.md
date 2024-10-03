@@ -3,7 +3,7 @@ title: "Aspose.BarCode Cloud"
 type: docs
 url: /
 weight: 10
-showChildPages: true
+listChildrenPages: true
 ---
 
 These instructions explain how to initialize Aspose.BarCode Cloud API and install the required libraries. You can easily embed barcode generation and decoding features into applications running on any modern OS.
